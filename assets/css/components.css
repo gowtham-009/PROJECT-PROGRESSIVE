@@ -1,0 +1,40 @@
+
+.container-m{
+    width: 100%;
+}
+@media(max-width:766px){
+    .pn{
+        display: none;
+    }
+    .ins{
+        width: 100%;
+        
+    }
+    .container-m{
+        width: 100%;
+        padding: 1%;
+    }
+    
+}
+@media(max-width:900px){
+    .container-m{
+        flex-wrap: wrap;
+    }
+    .sub-container{
+        padding: 1%;
+    }
+    .mini-container{
+        padding: 0;
+    }
+    .person-view{
+        width: 100%;
+    }
+
+}
+@media(max-width:1000px){
+    .container-m{
+        flex-wrap: wrap;
+    }
+  
+
+}

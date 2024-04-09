@@ -1,0 +1,19 @@
+.navs:hover{
+    border-bottom: 2px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+@media(max-width:850px){
+    .container{
+        flex-wrap: wrap;
+    }
+    .bp-2{
+        justify-content: start;
+    }
+    .navbar{
+        margin-left: 0%;
+    }
+    .navlinks{
+        justify-content: space-between;
+    }
+}
